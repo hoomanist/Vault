@@ -1,7 +1,11 @@
+Tags: #MathematicalPhysics
+
+# Dirichlet Integral
+
 ### 1. the integral and it's integrablity
 dirichlet integral is an improper integral of form:
 $$\int^\infty_0\frac{sin x}{x}dx = \frac{\pi}{2}$$
-it's not absolutely convergent so $|\frac{sin x}{x}|$ isn't convergent therefore it's not in sense of [[lebesgue integral]] integrable but is [[riemann integrable]].
+it's not absolutely convergent so $|\frac{sin x}{x}|$ isn't convergent therefore it's not in sense of [[Lebesgue Integral]] integrable but is [[riemann integrable]].
 ### 2. solving with feynman's trick
 we write our integral as a new function:
 $$f(s) = \int_0^\infty \frac{sin t}{t}e^{-st}dt$$
@@ -23,3 +27,12 @@ $$
 $$
 \int_0^\infty \frac{\sin t}{t}dt = \lim_{s\to0} \int^\infty_s \mathcal{L}\{\sin t\}dt = \lim_{s\to0}\int^\infty_s\frac{dt}{1+t^2} = \frac{\pi}{2}
 $$
+
+
+---
+# References
+
+ghazaljan.
+
+
+---

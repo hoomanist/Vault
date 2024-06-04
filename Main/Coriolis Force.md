@@ -1,7 +1,7 @@
 Tags: #classicalmechanics
 
 # Coriolis Force
-Consider two frames of reference. one of them is rotating with respect to other one and that one is an [[inertial frame]]. suppose the angular velocity of the rotating frame is $\omega$, there is a fictitious force acting on objects that are in motion with respect to the rotating frame named Coriolis Force which is given by: $$F_{coriolis} = -2m(\vec{\omega} \times \vec{v^\prime})$$
+Consider two frames of reference. one of them is rotating with respect to other one and that one is an [[inertial frame]]. suppose the angular velocity of the rotating frame is $\omega$, there is a fictitious force acting on objects that are in motion with respect to the rotating frame named Coriolis Force which is given by: $$F_{coriolis} = -2m(\vec{\omega} \times \vec{v^{\prime}})$$
 where $\vec{v^\prime}$ is velocity of object with respect to the rotating reference frame.
 
 ### Derivation
